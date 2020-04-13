@@ -1,0 +1,31 @@
+{
+  "name": "tienda",
+  "version": "1.0.0",
+  "description": "web version",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "test": "",
+    "webpack": "webpack --mode development --watch"
+  },
+  "author": "Nataly Charari",
+  "license": "ISC",
+  "dependencies": {
+    "@material-ui/core": "^4.9.10",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "@babel/preset-react": "^7.9.4",
+    "babel-loader": "^8.1.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.7",
+    "morgan": "^1.10.0",
+    "prettier": "^2.0.4",
+    "prop-types": "^15.7.2",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  }
+}
